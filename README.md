@@ -4,7 +4,7 @@ A simple template that can be used for quickly adding react components to Webflo
 
 ## Customization
 
-By default, it looks for a div with id `react-root`. You should change this in `main.tsx`, as if you want to handle multiple imports on a Webflow page then you need to have different targets for the bundles.
+By default, it looks for a div with id `react-1`. You should change this in `main.tsx`, as if you want to handle multiple imports on a Webflow page then you need to have different targets for the bundles.
 
 If you want to have the output file change names on every build (if you use long TTL or perma-caching) you can comment out the `entryFileNames:` line in `vite.config.ts`. You will need to update your Webflow import accordingly to use the new file name once hosted.
 
